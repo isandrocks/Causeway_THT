@@ -1,11 +1,3 @@
-"Source:","C:\Users\seanh\Documents\!ISR Files\KiCad\causeway_THT\causeway_THT.kicad_sch"
-"Date:","2/1/2024 10:43:59 PM"
-"Tool:","Eeschema 7.0.6"
-"Generator:","C:\Program Files\KiCad\7.0\bin\scripting\plugins/bom_csv_grouped_by_value.py"
-"Component Count:","161"
-
-"Collated Components:"
-
 "Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","DNP","MANUFACTURER","MAXIMUM_PACKAGE_HEIGHT","PARTREV","SNAPEDA_PN","STANDARD","Sim.Device","Sim.Pins"
 "1","2","BOOT1, RESET1","SW_Push","Switch:SW_Push","Button_Switch_THT:SW_PUSH_6mm","~","","","","","","","",""
 "2","2","C1, C2","22p","iSandRocks:C","Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm","~","","","","","","","",""
