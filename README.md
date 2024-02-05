@@ -7,7 +7,7 @@ This board is useing the ATmega32A MCU and running QMK Custom firmware.
 
 The basic layout of the board is a copy of the Boardwalk Ortho 5x14 with some extra configurations that can be swapped out.
 
-![causeway](https://imgur.com/N9sX19w.png)
+![causeway](https://imgur.com/KO2O9JO.png)
 
 ![causeway_pcb](https://imgur.com/9KIEPvq.png)
 
