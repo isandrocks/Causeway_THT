@@ -1,0 +1,3196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\seanh\Documents\!ISR Files\KiCad\causeway_THT\causeway_THT.kicad_sch</source>
+    <date>2/1/2024 10:43:59 PM</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>causeway_THT.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BOOT1">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a75fa407-49af-4a28-ac18-aa3a58086087</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>22p</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <libsource lib="iSandRocks" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64a301a3-9b5e-48d2-992e-62cbd5e6cf83</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>22p</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <libsource lib="iSandRocks" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c905df6f-b0d2-4b83-ad64-bbc91b7b3690</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>4.7u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, US symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d79a22d-58dd-4f20-9add-f4315ef293d0</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1u</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e9506c4f-a769-4a5d-92a4-b65bd6652eb0</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df5937c9-539f-48e1-a368-bfd1d64d14b8</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58a7e83b-ebaf-4db8-b9fe-bb90fd3af00a</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>031ed59c-d5dd-4355-8f10-9c7eb3dd5623</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7c1bb95e-d28b-436d-b4d3-8ca6cac63138</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>93e5ed72-1166-45d1-b1d9-a3dce11e4c59</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f031438d-062a-4606-80fc-9700718a9baa</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a09e4629-5eeb-4b20-809d-01ede8c82063</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f479fe21-6f2f-49e0-bd65-c07477f2c287</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a9f2e54c-0942-4896-bb70-4660876dc2c1</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1354c4a-0bc7-4718-8be1-7e9428c50e68</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b8466754-92f4-4420-b37a-253597a13108</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f701060a-738f-472a-b3c9-e79d76324e31</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da32c19b-0ab9-421c-aee9-24c5698550cf</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e4ca9bf-f214-4a46-ac46-2f7fe82ce1cc</tstamps>
+    </comp>
+    <comp ref="D15">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca779a80-907b-4b44-bddb-0f336c2b4ce2</tstamps>
+    </comp>
+    <comp ref="D16">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>71308242-3325-43f4-9acf-2f1e84947cc7</tstamps>
+    </comp>
+    <comp ref="D17">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>832c80d7-9279-46a1-b657-6797cb3971c6</tstamps>
+    </comp>
+    <comp ref="D18">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>efa418c8-259c-4411-9ed9-067e425d626b</tstamps>
+    </comp>
+    <comp ref="D19">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72662c79-1d9e-4627-b0fb-8241f4c30631</tstamps>
+    </comp>
+    <comp ref="D20">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed2be50b-ab71-47c8-85c4-e281cfefb383</tstamps>
+    </comp>
+    <comp ref="D21">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>81e25cde-42e4-40fd-ad2d-3b610fde55f2</tstamps>
+    </comp>
+    <comp ref="D22">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0768966f-aec7-4a15-a2aa-f7732d13d4ed</tstamps>
+    </comp>
+    <comp ref="D23">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea9a0997-51a7-42f4-90b6-b82c4023a381</tstamps>
+    </comp>
+    <comp ref="D24">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5240849-eb66-4a7a-bb97-a15dbbcfa33c</tstamps>
+    </comp>
+    <comp ref="D25">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>55191cac-e919-4ee5-8990-9c66185d3fc8</tstamps>
+    </comp>
+    <comp ref="D26">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>65f8a720-eb8f-4a01-b273-4693868ee983</tstamps>
+    </comp>
+    <comp ref="D27">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe228e3d-f6b9-40aa-b365-410a81943b10</tstamps>
+    </comp>
+    <comp ref="D28">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7f0baa46-3f0e-4ae5-87d6-df736432453f</tstamps>
+    </comp>
+    <comp ref="D29">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>203bf9a8-7149-4498-b481-752c8bdc143e</tstamps>
+    </comp>
+    <comp ref="D30">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7f90a110-b2dc-463b-953e-aae11b4dcf1f</tstamps>
+    </comp>
+    <comp ref="D31">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ec4517a-9a58-4c67-80e9-76a2b887815e</tstamps>
+    </comp>
+    <comp ref="D32">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>abecfbf1-4ce4-4437-8e82-03fc08cdf666</tstamps>
+    </comp>
+    <comp ref="D33">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7acbe8d5-cb0a-42ba-96e4-9f9bd79f5d03</tstamps>
+    </comp>
+    <comp ref="D34">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5b11b6e1-c578-4c6d-806c-49e96b8215e1</tstamps>
+    </comp>
+    <comp ref="D35">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e94aa1fd-4e87-4243-993b-0d5ce54d3616</tstamps>
+    </comp>
+    <comp ref="D36">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2f30d58f-5f12-4a2e-9bec-1bb1f586aa97</tstamps>
+    </comp>
+    <comp ref="D37">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>740dd549-9f0b-4f3c-807a-2758483a4283</tstamps>
+    </comp>
+    <comp ref="D38">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20dbf1d1-c365-4582-b72c-988d3febc02e</tstamps>
+    </comp>
+    <comp ref="D39">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9d0bf6e-8b95-4147-9fa1-c40ad747f960</tstamps>
+    </comp>
+    <comp ref="D40">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1c8d342-f1fe-48cd-858d-49cfbaf7a62b</tstamps>
+    </comp>
+    <comp ref="D41">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35effb7a-1dea-4b75-9eb6-cdabde76ce95</tstamps>
+    </comp>
+    <comp ref="D42">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>76a63e24-e427-4446-b2c2-0eaada8e2e18</tstamps>
+    </comp>
+    <comp ref="D43">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12a0d503-d0eb-4f7d-9775-e2b8be2e4dd0</tstamps>
+    </comp>
+    <comp ref="D44">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d0be339-1d41-48dd-8759-3be649704870</tstamps>
+    </comp>
+    <comp ref="D45">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4cd6ce6-a84c-4a85-aeb1-51cfcf6e7b96</tstamps>
+    </comp>
+    <comp ref="D46">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6d8ef7e1-6c2c-45bc-a69b-58181b04b902</tstamps>
+    </comp>
+    <comp ref="D47">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc24b26d-cead-4dab-9c65-a4ca2f6819e6</tstamps>
+    </comp>
+    <comp ref="D48">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>09d0c115-3f02-49ad-9629-2c3a01c71a19</tstamps>
+    </comp>
+    <comp ref="D49">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>410435b4-24bc-406b-9033-dbc71e694037</tstamps>
+    </comp>
+    <comp ref="D50">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14452db6-e095-4071-8d42-753180d99849</tstamps>
+    </comp>
+    <comp ref="D51">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e0a67bc-bd6e-4f90-abbb-54ccbf970816</tstamps>
+    </comp>
+    <comp ref="D52">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e0c4335c-0032-42a9-9bc5-e1530985ea1b</tstamps>
+    </comp>
+    <comp ref="D53">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d98bce9-c75e-4cb0-a53d-2c658dd8672f</tstamps>
+    </comp>
+    <comp ref="D54">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62f66f1c-0743-45c5-9911-124ae308a03d</tstamps>
+    </comp>
+    <comp ref="D55">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4f441f5-1bf1-424d-93b9-2c1add5751f9</tstamps>
+    </comp>
+    <comp ref="D56">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64ec3fba-8333-4d28-9e9b-84de0b185526</tstamps>
+    </comp>
+    <comp ref="D57">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dab88b68-1f6b-495f-858b-5a96add0e5d2</tstamps>
+    </comp>
+    <comp ref="D58">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59d3cf6a-b8e5-45b4-89ed-d12f9123e040</tstamps>
+    </comp>
+    <comp ref="D59">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa5f78cd-0517-4c65-9e33-8485960dc7c4</tstamps>
+    </comp>
+    <comp ref="D60">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8ab32c77-9a73-4791-81fa-1ca82e266f10</tstamps>
+    </comp>
+    <comp ref="D61">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>248934b4-0770-4062-a337-97dafe9bfeb7</tstamps>
+    </comp>
+    <comp ref="D62">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e17254e4-9602-4690-a375-7b26e38e0e42</tstamps>
+    </comp>
+    <comp ref="D63">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf379cf4-f19e-47c8-9dc3-f59a1db6eb5d</tstamps>
+    </comp>
+    <comp ref="D64">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9b36dea-3a5c-46e0-ba7d-e9a3d148b89b</tstamps>
+    </comp>
+    <comp ref="D65">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>86a892cd-ac56-4dd1-875a-187b296d38a9</tstamps>
+    </comp>
+    <comp ref="D66">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d19d873c-b2fd-4b6a-a221-cda219ec95fb</tstamps>
+    </comp>
+    <comp ref="D67">
+      <value>3.6V</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="D_Zener_Small" description="Zener diode, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Zener diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1acaa8c0-40b7-432f-bac1-962cc40cb6af</tstamps>
+    </comp>
+    <comp ref="D68">
+      <value>3.6V</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="D_Zener_Small" description="Zener diode, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Zener diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8aa6b36b-596f-4892-88be-6843eb4699db</tstamps>
+    </comp>
+    <comp ref="D69">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5273bc10-2a48-4bbd-8c02-d348ef4e1677</tstamps>
+    </comp>
+    <comp ref="D70">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>630304c4-6e8d-4a46-aa0e-600f23f3ba73</tstamps>
+    </comp>
+    <comp ref="D71">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>65df9ba7-2a79-420f-a5a7-4497af5363c1</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>500mA</value>
+      <footprint>Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="iSandRocks" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6684305b-a21e-4cf1-b321-858d5af86284</tstamps>
+    </comp>
+    <comp ref="ICSP1">
+      <value>~</value>
+      <footprint>Custom_Library:ICSP</footprint>
+      <libsource lib="iSandRocks" part="ICSP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a77acb0a-d3f5-4779-a9b1-7a764e7f3cf5</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>12402054M611A</value>
+      <footprint>12402054M611A:AMPHENOL_12402054M611A</footprint>
+      <fields>
+        <field name="MANUFACTURER">Amphenol</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">9.04mm</field>
+        <field name="PARTREV">3</field>
+        <field name="SNAPEDA_PN">12402054M611A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="12402054M611A" part="12402054M611A" description=""/>
+      <property name="PARTREV" value="3"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="SNAPEDA_PN" value="12402054M611A"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="9.04mm"/>
+      <property name="MANUFACTURER" value="Amphenol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22e526c3-f40a-4949-b565-b0de9215beaa</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>5.1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="iSandRocks" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>39bca118-426e-4870-b983-1c75fe11b491</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>5.1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="iSandRocks" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c2e11b5-e967-42a8-9e11-2b99dcb44972</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>15</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3108ec2c-2fea-4d48-ae16-a8fae52f97ea</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>15</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74370fdf-99e8-436a-9971-65f8f17235cb</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="iSandRocks" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dea6b714-8e97-4ace-820b-d7fda62f2873</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1.5k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f0f201e-ea5b-43a0-aba0-681b2fae3c0a</tstamps>
+    </comp>
+    <comp ref="RESET1">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de6ebcd5-3cdd-493b-b65f-31168a59f596</tstamps>
+    </comp>
+    <comp ref="Space1">
+      <value>SW_Cherry_MX_PCB_1.50u_90deg</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5026d1d2-233f-4d2a-affe-8725a2fc2f39</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Cherry_MX_PCB_1.50u</value>
+      <footprint>PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.50u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e76ceadf-ac06-4da8-bfff-296c554fb81d</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>48623330-69e1-4d01-8ac7-30a778314afa</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6bd56ae7-a5e5-4482-afde-8c47a5549925</tstamps>
+    </comp>
+    <comp ref="SW4">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>41daa3fc-6d5f-431c-960e-dab56c576bba</tstamps>
+    </comp>
+    <comp ref="SW5">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2423ef65-bbc3-4f7a-927c-e08371181234</tstamps>
+    </comp>
+    <comp ref="SW6">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>921cb6b4-b33a-426b-942f-9320a351e23b</tstamps>
+    </comp>
+    <comp ref="SW7">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e14271c-7d7f-45c7-adf6-6c0eb19e3d93</tstamps>
+    </comp>
+    <comp ref="SW8">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d8d04a47-0f25-4d0e-be18-fa760ce3b277</tstamps>
+    </comp>
+    <comp ref="SW9">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d52d8674-b7dd-453c-bfe5-fc5d891e95f2</tstamps>
+    </comp>
+    <comp ref="SW10">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bb39d6f5-2b00-4799-bd94-5d342208c185</tstamps>
+    </comp>
+    <comp ref="SW11">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2d129dc-629a-4101-9878-b8392a93c8ed</tstamps>
+    </comp>
+    <comp ref="SW12">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e129715b-66c3-4e76-9b91-c14669ce1543</tstamps>
+    </comp>
+    <comp ref="SW13">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca1c26b3-a249-460b-ab17-eab8d5e74cbe</tstamps>
+    </comp>
+    <comp ref="SW14">
+      <value>SW_Cherry_MX_PCB_1.50u</value>
+      <footprint>PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.50u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1c72a3f-62a4-45e4-8912-16278c1f8ee2</tstamps>
+    </comp>
+    <comp ref="SW15">
+      <value>SW_Cherry_MX_PCB_1.50u</value>
+      <footprint>PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.50u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7ceac63f-0d3e-4b9a-8bbe-0e5a7b34016b</tstamps>
+    </comp>
+    <comp ref="SW16">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd64fd9e-7f86-4686-9b8f-4d42ea9f4855</tstamps>
+    </comp>
+    <comp ref="SW17">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f768817a-fdf5-45ae-bc6d-5f177edae65a</tstamps>
+    </comp>
+    <comp ref="SW18">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>159c0e70-4398-410e-9388-09f58267b1c5</tstamps>
+    </comp>
+    <comp ref="SW19">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0389faf-66b1-4db0-bed7-7573b7a0455c</tstamps>
+    </comp>
+    <comp ref="SW20">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f8aa7e23-2b60-44d4-9558-b96355d909c7</tstamps>
+    </comp>
+    <comp ref="SW21">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98a90dfd-4b61-47d1-b079-3656910d2d7c</tstamps>
+    </comp>
+    <comp ref="SW22">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eaf6129d-b95c-413f-b234-32c6eaa895bd</tstamps>
+    </comp>
+    <comp ref="SW23">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c64816f1-42c5-43a2-aa2b-7d8c3c460725</tstamps>
+    </comp>
+    <comp ref="SW24">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5fdef5aa-6ac3-4dae-9370-3e0af7692976</tstamps>
+    </comp>
+    <comp ref="SW25">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3305496b-7cde-48c7-b515-2aefca9ff09d</tstamps>
+    </comp>
+    <comp ref="SW26">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3cabd398-4dbc-4606-8cf5-b7cef2473770</tstamps>
+    </comp>
+    <comp ref="SW27">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e483188-c631-4571-a71a-50a57edc24b5</tstamps>
+    </comp>
+    <comp ref="SW28">
+      <value>SW_Cherry_MX_PCB_1.50u</value>
+      <footprint>PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.50u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f9af7b38-d325-4d37-8197-c49de5365e46</tstamps>
+    </comp>
+    <comp ref="SW29">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.50u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>51e8bfff-4e69-4b93-aeed-775b2d1fbff7</tstamps>
+    </comp>
+    <comp ref="SW30">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6becaf8a-4569-44f7-af90-ba8b174142bf</tstamps>
+    </comp>
+    <comp ref="SW31">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64a19da6-bb78-45ba-b7e3-18c4d3643913</tstamps>
+    </comp>
+    <comp ref="SW32">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9331ed70-6562-45c6-b022-eccdb9da0d5a</tstamps>
+    </comp>
+    <comp ref="SW33">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab5fe683-0693-4a6a-9693-d9fd84346ab6</tstamps>
+    </comp>
+    <comp ref="SW34">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>034e3505-37f4-417c-8b3a-53d0bda89f37</tstamps>
+    </comp>
+    <comp ref="SW35">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>905aaccd-3c6f-4f8d-b0a2-3f1c1ae9b019</tstamps>
+    </comp>
+    <comp ref="SW36">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e3e7655-3e19-4d09-9ddf-5bd605858f92</tstamps>
+    </comp>
+    <comp ref="SW37">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7fe640a8-13c7-48f1-850f-559bc0f5198b</tstamps>
+    </comp>
+    <comp ref="SW38">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1f65e37-318b-41d5-a2ad-9ddc279c7a3f</tstamps>
+    </comp>
+    <comp ref="SW39">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d4004dc8-f7e5-4438-9c29-e2b0303a0083</tstamps>
+    </comp>
+    <comp ref="SW40">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b8371c5-9976-4422-8121-35dd9000e800</tstamps>
+    </comp>
+    <comp ref="SW41">
+      <value>SW_Cherry_MX_PCB_1.50u</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d7b46974-c0ba-4b5a-9f79-ee3890f2b3fe</tstamps>
+    </comp>
+    <comp ref="SW42">
+      <value>SW_Cherry_MX_PCB_1.50u</value>
+      <footprint>PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.50u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ab70191-ac6e-44fa-be2c-a946745c5638</tstamps>
+    </comp>
+    <comp ref="SW43">
+      <value>SW_Cherry_MX_PCB_1.50u</value>
+      <footprint>PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.50u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cce106d2-5f39-4367-85d8-acdcc62baeff</tstamps>
+    </comp>
+    <comp ref="SW44">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27087d5d-b538-4b80-94cf-00894d72a776</tstamps>
+    </comp>
+    <comp ref="SW45">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c68e0a02-64c4-4d9f-b655-f29a78dcdf22</tstamps>
+    </comp>
+    <comp ref="SW46">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8ac9d022-5a02-4d1b-9463-02bdb25dd406</tstamps>
+    </comp>
+    <comp ref="SW47">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70d2a3fa-1de3-42fe-aba6-4c096e9c0b5e</tstamps>
+    </comp>
+    <comp ref="SW48">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>26b88a26-af8f-41b4-8325-18e173712b32</tstamps>
+    </comp>
+    <comp ref="SW49">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c7c04f7b-4cf8-42b6-b09a-7d45c6c117ef</tstamps>
+    </comp>
+    <comp ref="SW50">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d5380c47-3a81-4496-a045-feccfc52287c</tstamps>
+    </comp>
+    <comp ref="SW51">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85111f62-e083-441b-b0d9-0deb761607c8</tstamps>
+    </comp>
+    <comp ref="SW52">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59da38d9-3dc0-4055-9f5b-d27bd112f982</tstamps>
+    </comp>
+    <comp ref="SW53">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>48c73e2d-12d0-44f1-b1f7-67916605688b</tstamps>
+    </comp>
+    <comp ref="SW54">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36412e72-d15b-4422-a791-c2ef3faba991</tstamps>
+    </comp>
+    <comp ref="SW55">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e20e30da-4b72-4573-b022-96af2503b680</tstamps>
+    </comp>
+    <comp ref="SW56">
+      <value>SW_Cherry_MX_PCB_1.50u</value>
+      <footprint>PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.50u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23eb0224-8c6d-423a-b8e7-925fd55d20a7</tstamps>
+    </comp>
+    <comp ref="SW57">
+      <value>SW_Cherry_MX_PCB_1.50u</value>
+      <footprint>PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.50u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c70132e-3ecf-4abb-a63d-8b71b8497ec9</tstamps>
+    </comp>
+    <comp ref="SW58">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dad3ec8a-f65f-4dc8-a53f-7f6bdb8ecd68</tstamps>
+    </comp>
+    <comp ref="SW59">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>216d71d5-9abf-4c3f-8eb8-122f573ab97f</tstamps>
+    </comp>
+    <comp ref="SW60">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4ad0c93b-3515-45b0-9e9e-cf24d7c38512</tstamps>
+    </comp>
+    <comp ref="SW61">
+      <value>SW_Cherry_MX_PCB_3.00u</value>
+      <footprint>PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_2.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d5d480a8-8f37-48f2-801d-7a09d1828743</tstamps>
+    </comp>
+    <comp ref="SW62">
+      <value>SW_Cherry_MX_PCB_3.00u</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_2.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ecfd4e41-4cfc-4744-98e6-98c650bc2fdd</tstamps>
+    </comp>
+    <comp ref="SW63">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>28df04b8-d043-44da-9b67-e94aee860056</tstamps>
+    </comp>
+    <comp ref="SW64">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9fa65516-e735-425b-8ef4-1b52c70c604a</tstamps>
+    </comp>
+    <comp ref="SW65">
+      <value>SW_Cherry_MX_1.00u_PCB</value>
+      <footprint>Custom_Library:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84514e00-7b09-47c2-97bc-85e1a899f49c</tstamps>
+    </comp>
+    <comp ref="SW66">
+      <value>SW_Cherry_MX_PCB_1.50u</value>
+      <footprint>PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.50u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8afeca5e-6ab6-431b-b41b-95ae9c25e2d6</tstamps>
+    </comp>
+    <comp ref="SW67">
+      <value>SW_Cherry_MX_PCB_1.50u_90deg</value>
+      <footprint>PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.50u_90deg</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>525cf681-0e6e-4f23-b4a1-324d5f584e6e</tstamps>
+    </comp>
+    <comp ref="SW68">
+      <value>SW_Cherry_MX_PCB_1.50u_90deg</value>
+      <footprint>PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.50u_90deg</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a61c248-c4c4-4806-a2e5-e2067b5ebe09</tstamps>
+    </comp>
+    <comp ref="SW69">
+      <value>SW_Cherry_MX_PCB_1.50u_90deg</value>
+      <footprint>PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.50u_90deg</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b922d73-f709-4745-95ab-02b52f14b2b0</tstamps>
+    </comp>
+    <comp ref="SW70">
+      <value>SW_Cherry_MX_PCB_1.50u_90deg</value>
+      <footprint>PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.50u_90deg</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53934eb6-63fe-42bb-9f8b-05f8032c1ccd</tstamps>
+    </comp>
+    <comp ref="SW71">
+      <value>SW_Cherry_MX_PCB_3.00u</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>41399aa5-2063-4619-a699-41c7c8a4b0e2</tstamps>
+    </comp>
+    <comp ref="SW72">
+      <value>SW_Cherry_MX_PCB_3.00u</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62049d7a-248a-4f9a-8ed1-ad6bbae6e7a8</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ATmega32A-P</value>
+      <footprint>Package_DIP:DIP-40_W15.24mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8155-8-bit-microcontroller-avr-atmega32a_datasheet.pdf</datasheet>
+      <libsource lib="MCU_Microchip_ATmega" part="ATmega32A-P" description="16MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, JTAG, DIP-40"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="16MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, JTAG, DIP-40"/>
+      <property name="ki_keywords" value="AVR 8bit Microcontroller MegaAVR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cdd67774-3cd5-4501-b1a5-73a497356f82</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>16MHz</value>
+      <footprint>Crystal:Crystal_HC49-4H_Vertical</footprint>
+      <libsource lib="iSandRocks" part="Crystal" description="Two pin crystal"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="causeway_THT.kicad_sch"/>
+      <property name="ki_description" value="Two pin crystal"/>
+      <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ecc758a9-5d7b-4f2c-afc5-47bf7806d6b4</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="12402054M611A" part="12402054M611A">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">12402054M611A</field>
+        <field name="Footprint">12402054M611A:AMPHENOL_12402054M611A</field>
+        <field name="PARTREV">3</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SNAPEDA_PN">12402054M611A</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">9.04mm</field>
+        <field name="MANUFACTURER">Amphenol</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND_A" type="power_in"/>
+        <pin num="A4" name="VBUS_A" type="power_in"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D1+" type="bidirectional"/>
+        <pin num="A7" name="D1-" type="bidirectional"/>
+        <pin num="A9" name="VBUS_A__1" type="power_in"/>
+        <pin num="A12" name="GND_A__1" type="power_in"/>
+        <pin num="B1" name="GND_B" type="power_in"/>
+        <pin num="B4" name="VBUS_B" type="power_in"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D2+" type="bidirectional"/>
+        <pin num="B7" name="D2-" type="bidirectional"/>
+        <pin num="B9" name="VBUS_B__1" type="power_in"/>
+        <pin num="B12" name="GND_B__1" type="power_in"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+        <pin num="S2" name="SHIELD__1" type="passive"/>
+        <pin num="S3" name="SHIELD__2" type="passive"/>
+        <pin num="S4" name="SHIELD__3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_US">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener_Small">
+      <description>Zener diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4148">
+      <description>100V 0.15A standard switching diode, DO-35</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</docs>
+      <footprints>
+        <fp>D*DO?35*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148</field>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_ATmega" part="ATmega32A-P">
+      <description>16MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, JTAG, DIP-40</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8155-8-bit-microcontroller-avr-atmega32a_datasheet.pdf</docs>
+      <footprints>
+        <fp>DIP*W15.24mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATmega32A-P</field>
+        <field name="Footprint">Package_DIP:DIP-40_W15.24mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8155-8-bit-microcontroller-avr-atmega32a_datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PB0" type="bidirectional"/>
+        <pin num="2" name="PB1" type="bidirectional"/>
+        <pin num="3" name="PB2" type="bidirectional"/>
+        <pin num="4" name="PB3" type="bidirectional"/>
+        <pin num="5" name="PB4" type="bidirectional"/>
+        <pin num="6" name="PB5" type="bidirectional"/>
+        <pin num="7" name="PB6" type="bidirectional"/>
+        <pin num="8" name="PB7" type="bidirectional"/>
+        <pin num="9" name="~{RESET}" type="input"/>
+        <pin num="10" name="VCC" type="power_in"/>
+        <pin num="11" name="GND" type="power_in"/>
+        <pin num="12" name="XTAL2" type="output"/>
+        <pin num="13" name="XTAL1" type="input"/>
+        <pin num="14" name="PD0" type="bidirectional"/>
+        <pin num="15" name="PD1" type="bidirectional"/>
+        <pin num="16" name="PD2" type="bidirectional"/>
+        <pin num="17" name="PD3" type="bidirectional"/>
+        <pin num="18" name="PD4" type="bidirectional"/>
+        <pin num="19" name="PD5" type="bidirectional"/>
+        <pin num="20" name="PD6" type="bidirectional"/>
+        <pin num="21" name="PD7" type="bidirectional"/>
+        <pin num="22" name="PC0" type="bidirectional"/>
+        <pin num="23" name="PC1" type="bidirectional"/>
+        <pin num="24" name="PC2" type="bidirectional"/>
+        <pin num="25" name="PC3" type="bidirectional"/>
+        <pin num="26" name="PC4" type="bidirectional"/>
+        <pin num="27" name="PC5" type="bidirectional"/>
+        <pin num="28" name="PC6" type="bidirectional"/>
+        <pin num="29" name="PC7" type="bidirectional"/>
+        <pin num="30" name="AVCC" type="power_in"/>
+        <pin num="31" name="GND" type="passive"/>
+        <pin num="32" name="AREF" type="passive"/>
+        <pin num="33" name="PA7" type="bidirectional"/>
+        <pin num="34" name="PA6" type="bidirectional"/>
+        <pin num="35" name="PA5" type="bidirectional"/>
+        <pin num="36" name="PA4" type="bidirectional"/>
+        <pin num="37" name="PA3" type="bidirectional"/>
+        <pin num="38" name="PA2" type="bidirectional"/>
+        <pin num="39" name="PA1" type="bidirectional"/>
+        <pin num="40" name="PA0" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="iSandRocks" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="iSandRocks" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="iSandRocks" part="ICSP">
+      <fields>
+        <field name="Reference">ICSP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MISO" type="input"/>
+        <pin num="2" name="VCC" type="input"/>
+        <pin num="3" name="SCK" type="input"/>
+        <pin num="4" name="MOSI" type="input"/>
+        <pin num="5" name="RESET" type="input"/>
+        <pin num="6" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="iSandRocks" part="Polyfuse">
+      <description>Resettable fuse, polymeric positive temperature coefficient</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="iSandRocks" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="12402054M611A">
+      <uri>C:/Users/seanh/Documents/!ISR Files/KiCad/symbols and feet/12402054M611A/12402054M611A.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Microchip_ATmega">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/MCU_Microchip_ATmega.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U1" pin="30" pinfunction="AVCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="ALTK1">
+      <node ref="D35" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW35" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW67" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="3" name="ALTK2">
+      <node ref="D36" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW36" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW68" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="4" name="ALTK3">
+      <node ref="D49" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW49" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW69" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="5" name="ALTK4">
+      <node ref="D50" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW50" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW70" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="6" name="COL1">
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW29" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW43" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW57" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="40" pinfunction="PA0" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="COL2">
+      <node ref="SW16" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW30" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW44" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW58" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="39" pinfunction="PA1" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="COL3">
+      <node ref="SW17" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW31" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW45" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW59" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="38" pinfunction="PA2" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="COL4">
+      <node ref="SW18" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW32" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW46" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW60" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="37" pinfunction="PA3" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="COL5">
+      <node ref="SW19" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW33" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW47" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW71" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="36" pinfunction="PA4" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="COL6">
+      <node ref="SW20" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW34" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW48" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW61" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="35" pinfunction="PA5" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="COL7">
+      <node ref="SW21" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW35" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW49" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW67" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW69" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="34" pinfunction="PA6" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="COL8">
+      <node ref="SW22" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW36" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW50" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW68" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW70" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Space1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="PC5" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="COL9">
+      <node ref="SW23" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW37" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW51" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW62" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="PC4" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="COL10">
+      <node ref="SW10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW24" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW38" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW52" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW72" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="PC3" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="COL11">
+      <node ref="SW11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW25" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW39" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW53" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW63" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="PC2" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="COL12">
+      <node ref="SW12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW26" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW40" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW54" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW64" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="PC1" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="COL13">
+      <node ref="SW13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW27" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW41" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW55" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW65" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="PC0" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="COL14">
+      <node ref="SW14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW28" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW42" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW56" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW66" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="PD7" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="D+">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="PD2" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="D-">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="PD3" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="GND">
+      <node ref="BOOT1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="D67" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D68" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="ICSP1" pin="6" pinfunction="GND" pintype="input"/>
+      <node ref="J1" pin="A1" pinfunction="GND_A" pintype="power_in"/>
+      <node ref="J1" pin="A12" pinfunction="GND_A__1" pintype="power_in"/>
+      <node ref="J1" pin="B1" pinfunction="GND_B" pintype="power_in"/>
+      <node ref="J1" pin="B12" pinfunction="GND_B__1" pintype="power_in"/>
+      <node ref="J1" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J1" pin="S2" pinfunction="SHIELD__1" pintype="passive"/>
+      <node ref="J1" pin="S3" pinfunction="SHIELD__2" pintype="passive"/>
+      <node ref="J1" pin="S4" pinfunction="SHIELD__3" pintype="passive"/>
+      <node ref="RESET1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="31" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="23" name="MISO">
+      <node ref="ICSP1" pin="1" pinfunction="MISO" pintype="input"/>
+      <node ref="U1" pin="7" pinfunction="PB6" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="MOSI">
+      <node ref="ICSP1" pin="4" pinfunction="MOSI" pintype="input"/>
+      <node ref="U1" pin="6" pinfunction="PB5" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(D3-A)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(D4-A)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW4" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(D5-A)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW5" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(D6-A)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW6" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(D7-A)">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW7" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(D8-A)">
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW8" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(D9-A)">
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW9" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(D10-A)">
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW10" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(D11-A)">
+      <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW11" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(D12-A)">
+      <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW12" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(D13-A)">
+      <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW13" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(D14-A)">
+      <node ref="D14" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW14" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(D15-A)">
+      <node ref="D15" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW15" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(D16-A)">
+      <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW16" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(D17-A)">
+      <node ref="D17" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW17" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(D18-A)">
+      <node ref="D18" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW18" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(D19-A)">
+      <node ref="D19" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW19" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(D20-A)">
+      <node ref="D20" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW20" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(D21-A)">
+      <node ref="D21" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW21" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(D22-A)">
+      <node ref="D22" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW22" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(D23-A)">
+      <node ref="D23" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW23" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(D24-A)">
+      <node ref="D24" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW24" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(D25-A)">
+      <node ref="D25" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW25" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(D26-A)">
+      <node ref="D26" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW26" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(D27-A)">
+      <node ref="D27" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW27" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(D28-A)">
+      <node ref="D28" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW28" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(D29-A)">
+      <node ref="D29" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW29" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(D30-A)">
+      <node ref="D30" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW30" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(D31-A)">
+      <node ref="D31" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW31" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(D32-A)">
+      <node ref="D32" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW32" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(D33-A)">
+      <node ref="D33" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW33" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(D34-A)">
+      <node ref="D34" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW34" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(D37-A)">
+      <node ref="D37" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW37" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(D38-A)">
+      <node ref="D38" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW38" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(D39-A)">
+      <node ref="D39" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW39" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(D40-A)">
+      <node ref="D40" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW40" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(D41-A)">
+      <node ref="D41" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW41" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(D42-A)">
+      <node ref="D42" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW42" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(D43-A)">
+      <node ref="D43" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW43" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(D44-A)">
+      <node ref="D44" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW44" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(D45-A)">
+      <node ref="D45" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW45" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(D46-A)">
+      <node ref="D46" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW46" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(D47-A)">
+      <node ref="D47" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW47" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="70" name="Net-(D48-A)">
+      <node ref="D48" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW48" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="71" name="Net-(D51-A)">
+      <node ref="D51" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW51" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="72" name="Net-(D52-A)">
+      <node ref="D52" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW52" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="73" name="Net-(D53-A)">
+      <node ref="D53" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW53" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="74" name="Net-(D54-A)">
+      <node ref="D54" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW54" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="75" name="Net-(D55-A)">
+      <node ref="D55" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW55" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="76" name="Net-(D56-A)">
+      <node ref="D56" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW56" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="77" name="Net-(D57-A)">
+      <node ref="D57" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW57" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="78" name="Net-(D58-A)">
+      <node ref="D58" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW58" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="79" name="Net-(D59-A)">
+      <node ref="D59" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW59" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="80" name="Net-(D60-A)">
+      <node ref="D60" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW60" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="81" name="Net-(D61-A)">
+      <node ref="D61" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW61" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="82" name="Net-(D62-A)">
+      <node ref="D62" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW62" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="83" name="Net-(D63-A)">
+      <node ref="D63" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW63" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="84" name="Net-(D64-A)">
+      <node ref="D64" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW64" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="85" name="Net-(D65-A)">
+      <node ref="D65" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW65" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="86" name="Net-(D66-A)">
+      <node ref="D66" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW66" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="87" name="Net-(D69-A)">
+      <node ref="D69" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW71" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="88" name="Net-(D70-A)">
+      <node ref="D70" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW72" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="89" name="Net-(D71-A)">
+      <node ref="D71" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Space1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="90" name="Net-(J1-CC1)">
+      <node ref="J1" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="91" name="Net-(J1-CC2)">
+      <node ref="J1" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="92" name="RESET">
+      <node ref="ICSP1" pin="5" pinfunction="RESET" pintype="input"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="RESET1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="93" name="ROW1">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D12" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="PB0" pintype="bidirectional"/>
+    </net>
+    <net code="94" name="ROW2">
+      <node ref="D15" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D16" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D17" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D18" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D19" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D20" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D21" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D22" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D23" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D24" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D25" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D26" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D27" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D28" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="PB1" pintype="bidirectional"/>
+    </net>
+    <net code="95" name="ROW3">
+      <node ref="D29" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D30" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D31" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D32" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D33" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D34" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D35" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D36" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D37" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D38" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D39" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D40" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D41" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D42" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="PB2" pintype="bidirectional"/>
+    </net>
+    <net code="96" name="ROW4">
+      <node ref="D43" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D44" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D45" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D46" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D47" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D48" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D49" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D50" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D51" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D52" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D53" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D54" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D55" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D56" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="PB3" pintype="bidirectional"/>
+    </net>
+    <net code="97" name="ROW5">
+      <node ref="D57" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D58" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D59" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D60" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D61" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D62" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D63" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D64" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D65" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D66" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D69" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D70" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D71" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="PB4" pintype="bidirectional"/>
+    </net>
+    <net code="98" name="SCK">
+      <node ref="ICSP1" pin="3" pinfunction="SCK" pintype="input"/>
+      <node ref="U1" pin="8" pinfunction="PB7" pintype="bidirectional"/>
+    </net>
+    <net code="99" name="TOSC1">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="XTAL2" pintype="output"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="100" name="TOSC2">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="XTAL1" pintype="input"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="101" name="USB-D+">
+      <node ref="D68" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="A6" pinfunction="D1+" pintype="bidirectional"/>
+      <node ref="J1" pin="B6" pinfunction="D2+" pintype="bidirectional"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="102" name="USB-D-">
+      <node ref="D67" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="A7" pinfunction="D1-" pintype="bidirectional"/>
+      <node ref="J1" pin="B7" pinfunction="D2-" pintype="bidirectional"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="103" name="VCC">
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="ICSP1" pin="2" pinfunction="VCC" pintype="input"/>
+      <node ref="J1" pin="A4" pinfunction="VBUS_A" pintype="power_in"/>
+      <node ref="J1" pin="A9" pinfunction="VBUS_A__1" pintype="power_in"/>
+      <node ref="J1" pin="B4" pinfunction="VBUS_B" pintype="power_in"/>
+      <node ref="J1" pin="B9" pinfunction="VBUS_B__1" pintype="power_in"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="104" name="boot">
+      <node ref="BOOT1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="PD4" pintype="bidirectional"/>
+    </net>
+    <net code="105" name="unconnected-(U1-AREF-Pad32)">
+      <node ref="U1" pin="32" pinfunction="AREF" pintype="passive+no_connect"/>
+    </net>
+    <net code="106" name="unconnected-(U1-PA7-Pad33)">
+      <node ref="U1" pin="33" pinfunction="PA7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="107" name="unconnected-(U1-PC6-Pad28)">
+      <node ref="U1" pin="28" pinfunction="PC6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="108" name="unconnected-(U1-PC7-Pad29)">
+      <node ref="U1" pin="29" pinfunction="PC7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="109" name="unconnected-(U1-PD0-Pad14)">
+      <node ref="U1" pin="14" pinfunction="PD0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="110" name="unconnected-(U1-PD1-Pad15)">
+      <node ref="U1" pin="15" pinfunction="PD1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="111" name="unconnected-(U1-PD5-Pad19)">
+      <node ref="U1" pin="19" pinfunction="PD5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="112" name="unconnected-(U1-PD6-Pad20)">
+      <node ref="U1" pin="20" pinfunction="PD6" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>
