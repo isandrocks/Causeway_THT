@@ -1,5 +1,5 @@
 # Causeway_THT
-===
+
 
 **[LICENSE](LICENSE)**
 
@@ -9,6 +9,7 @@ This PCB design may be freely reproduced, modified, and manufactured for **PERSO
 
 If you have built upon this work and have changed the design in a significant way, the non-commercial clause can be waived.
 
+##
 
  **My first keyboard DIY kit!**
 	
