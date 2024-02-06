@@ -4,6 +4,12 @@
 
   (paper "USLegal")
 
+  (title_block
+    (title "Causeway_THT")
+    (date "2024-02-06")
+    (company "iSandRocks")
+  )
+
   (lib_symbols
     (symbol "12402054M611A:12402054M611A" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at -12.7 13.462 0)
