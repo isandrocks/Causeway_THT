@@ -5,7 +5,7 @@
 
 Causeway_THT is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/). ![cc-by-nc](https://i.creativecommons.org/l/by-nc/4.0/88x31.png)
 
-This PCB design may be freely reproduced, modified, and manufactured for **PERSONAL USE ONLY** and may not be reproduced in physical form. 
+This PCB design may be freely reproduced, modified, and manufactured for **PERSONAL USE ONLY** and may not be reproduced in physical form for public sale. 
 
 If you have built upon this work and have changed the design in a significant way, the non-commercial clause can be waived.
 
