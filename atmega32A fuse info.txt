@@ -1,0 +1,3 @@
+#ATMega32A Fuses
+avrdude -c avrisp -p m32 -P (port info) -v -u -U lfuse:w:0x1F:m
+avrdude -c avrisp -p m32 -P (port info) -v -u -U hfuse:w:0xC0:m
